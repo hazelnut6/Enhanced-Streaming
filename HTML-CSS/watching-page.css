@@ -3,9 +3,12 @@ body {
     background-size: 100%;
  }
  .navbar {
-    background-color: #121212;
+    background-color: #000;
  }
 .navbar, .navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
     color: white;
 }
 footer {

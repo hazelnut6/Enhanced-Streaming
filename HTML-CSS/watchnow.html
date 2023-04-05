@@ -8,12 +8,49 @@
     <link rel="icon" type="image/x-icon" href="/Images/Brown and White Named Warner & Spencer Logo-2.png">
     <title>Enola Holmes</title>
     <style>
+        body {
+            background-color: #121212;
+        }
+         .navbar {
+            background-color: #121212;
+        }
+        .navbar, .navbar-brand {
+            color: white;
+        }
+        .navbar-brand:hover {
+            color: white;
+        }
         video {
             width: 1000px;
         }
     </style>
 </head>
-<body class="bg-black">
+<body>
+    <nav class="navbar">
+        <div class="container-fluid col-lg-12 col-sm-6" id="nav">
+          <a class="navbar-brand">
+            <img src="/Images/Brown and White Named Warner & Spencer Logo-2.png" alt="FexStream logo" style="height: 25px; width: 25px;">
+            FlexStream
+          </a>
+          <div class="d-flex">
+                <div class="nav-item dropdown">
+                    <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/Images/me nobg.png" alt="account-pic" height="30" width="30" style="border: 2px solid #3bbdb0; border-radius: 40px;">
+                    </a> -->
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="settings.html">My Account</a>
+                        <a class="dropdown-item" href="my-list.html">My List</a>
+                        <a class="dropdown-item" href="index.html">Downloads</a>
+                        <a class="dropdown-item" href="settings.html">Settings</a>
+                        <a class="dropdown-item" href="log-in.html">Log Out</a>
+                    </div>
+                </div> &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="with-account.html">Home</a> &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="my-list.html">My List</a> &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="index.html">Downloads</a> &nbsp; &nbsp;
+          </div>
+        </div>
+    </nav>
 <div class="container">
     <video src="video.mp4" controls title="Play"></video>
 </div>

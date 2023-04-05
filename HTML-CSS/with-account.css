@@ -7,6 +7,9 @@ body {
 .navbar {
     background-color: #121212;
 }
+.navbar-brand:hover {
+    color: white;
+}
 #first-row {
 height: 33rem;
 /* width: 74.5rem; */
