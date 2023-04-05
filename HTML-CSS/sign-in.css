@@ -1,0 +1,31 @@
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/bg.jpg);
+   background-size: cover;
+}
+footer {
+   color: skyblue;
+}
+i {
+   text-decoration: underline;
+}
+.click {
+   border-style: none;
+   background-color: #24cbbb;
+   height: 37px;
+   border-radius: 6px;
+   font-weight: 475;
+}
+.fin {
+   color: white;
+}
+.continue {
+   color: #24cbbb;
+}
+.glass {
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   border-radius: 20px;
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
